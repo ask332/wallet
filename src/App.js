@@ -8,7 +8,7 @@ import { useState } from 'react';
 import Send from './Send';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Account from './Account';
-import { ethers } from 'ethers';
+import { ethers, Wallet } from 'ethers';
 import Home from './Home';
 
 
@@ -25,7 +25,8 @@ function App() {
   .then((e) => e.getBalance())
   .then((data)=>setBalance(ethers.utils.formatEther(data)));
   //console.log(addr);
-  
+
+
   return (
     <Router>
     <div className="App">
