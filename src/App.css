@@ -11,6 +11,15 @@
   border-radius: 10px;
   
 }
+.desc {
+  align-content: center;
+  margin: 1% auto;
+  padding: 2%;
+  width: 50rem;
+  border: 1px #F806CC solid;
+  border-radius: 10px;
+  
+}
 .logo {
   background-color: #54E346;
   padding: 10%;

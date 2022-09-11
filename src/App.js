@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Pay from './Pay';
 import { useState } from 'react';
 import Send from './Send';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route,} from 'react-router-dom'
 import Account from './Account';
 import { ethers, Wallet } from 'ethers';
 import Home from './Home';
@@ -38,9 +38,9 @@ function App() {
           <Route  exact path = '/pay'>
             <Pay />
           </Route>
-          <Route  exact path = '/send'>
+          {/* <Route  exact path = '/send'>
             <Send />
-          </Route>
+          </Route> */}
           <Route  exact path = '/account'>
             <Account addr = {addr} balance = {balance}/>
           </Route>

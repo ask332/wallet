@@ -3,7 +3,7 @@ import Alert from 'react-bootstrap/Alert';
 
 const Home = () => {
     return ( 
-        <div className="pay">
+        <div className="desc">
             <img src="/default-monochrome-black.svg" alt="" />
             <p>                
                 canPay is platform to conduct send ether and mint NFT on ethereum network. canPay platform is build using 
