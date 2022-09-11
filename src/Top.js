@@ -23,7 +23,7 @@ const Top = (props) =>{
           <Nav className="me-auto">
             <Nav.Link href= '/'>Home</Nav.Link>
             <Nav.Link href="/pay">Pay</Nav.Link>
-            <Nav.Link href="/send">Send NFT</Nav.Link>
+            {/* <Nav.Link href="/send">Send NFT</Nav.Link> */}
           </Nav>
         </Container>
         <Nav>
